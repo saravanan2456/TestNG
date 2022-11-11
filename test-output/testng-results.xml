@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="10" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-10T13:13:40Z" name="Suite" finished-at="2022-11-10T13:16:23Z" duration-ms="162507">
+    <groups>
+      <group name="smoke">
+        <method signature="MobileSearch.test1(java.lang.String, java.lang.String)[pri:1, instance:com.flib.setpinto.MobileSearch@6cce16f4]" name="test1" class="com.flib.setpinto.MobileSearch"/>
+        <method signature="MobileSearch.test2(java.lang.String)[pri:2, instance:com.flib.setpinto.MobileSearch@6cce16f4]" name="test2" class="com.flib.setpinto.MobileSearch"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="AmazonMobile.test1(java.lang.String)[pri:1, instance:com.flib.setpinto.AmazonMobile@6af9fcb2]" name="test1" class="com.flib.setpinto.AmazonMobile"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-11-10T13:13:40Z" name="Test" finished-at="2022-11-10T13:16:23Z" duration-ms="162507">
+      <class name="com.flib.setpinto.AmazonMobile">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.flib.setpinto.AmazonMobile@6af9fcb2]" started-at="2022-11-10T13:13:41Z" name="beforeclass" finished-at="2022-11-10T13:14:35Z" duration-ms="54562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.flib.setpinto.AmazonMobile@6af9fcb2]" started-at="2022-11-10T13:14:35Z" name="before" finished-at="2022-11-10T13:14:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="test1(java.lang.String)[pri:1, instance:com.flib.setpinto.AmazonMobile@6af9fcb2]" started-at="2022-11-10T13:14:35Z" name="test1" finished-at="2022-11-10T13:14:47Z" duration-ms="11420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[poco mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.flib.setpinto.AmazonMobile@6af9fcb2]" started-at="2022-11-10T13:14:47Z" name="after" finished-at="2022-11-10T13:14:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.flib.setpinto.AmazonMobile@6af9fcb2]" started-at="2022-11-10T13:14:47Z" name="afterclass" finished-at="2022-11-10T13:14:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.flib.setpinto.AmazonMobile -->
+      <class name="com.flib.setpinto.MobileSearch">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.flib.setpinto.MobileSearch@6cce16f4]" started-at="2022-11-10T13:14:47Z" name="beforeclass" finished-at="2022-11-10T13:15:54Z" duration-ms="67746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.flib.setpinto.MobileSearch@6cce16f4]" started-at="2022-11-10T13:15:54Z" name="before" finished-at="2022-11-10T13:15:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:1, instance:com.flib.setpinto.MobileSearch@6cce16f4]" started-at="2022-11-10T13:15:54Z" name="test1" data-provider="login" finished-at="2022-11-10T13:16:18Z" duration-ms="23989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.flib.setpinto.MobileSearch@6cce16f4]" started-at="2022-11-10T13:16:18Z" name="after" finished-at="2022-11-10T13:16:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="test2(java.lang.String)[pri:2, instance:com.flib.setpinto.MobileSearch@6cce16f4]" started-at="2022-11-10T13:16:18Z" name="test2" finished-at="2022-11-10T13:16:22Z" duration-ms="3927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.flib.setpinto.MobileSearch@6cce16f4]" started-at="2022-11-10T13:16:18Z" name="before" finished-at="2022-11-10T13:16:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.flib.setpinto.MobileSearch@6cce16f4]" started-at="2022-11-10T13:16:22Z" name="after" finished-at="2022-11-10T13:16:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.flib.setpinto.MobileSearch@6cce16f4]" started-at="2022-11-10T13:16:22Z" name="afterclass" finished-at="2022-11-10T13:16:23Z" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.flib.setpinto.MobileSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
